@@ -15,6 +15,8 @@
 		045D696421BF9FFF006738BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D696321BF9FFF006738BC /* main.m */; };
 		045D696E21BF9FFF006738BC /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D696D21BF9FFF006738BC /* ______Tests.m */; };
 		045D697921BF9FFF006738BC /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D697821BF9FFF006738BC /* ______UITests.m */; };
+		045D698821BFA016006738BC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045D698721BFA016006738BC /* TestViewController.m */; };
+		045D698A21BFA864006738BC /* qwerdf.png in Resources */ = {isa = PBXBuildFile; fileRef = 045D698921BFA864006738BC /* qwerdf.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		045D697421BF9FFF006738BC /* 下拉手势退出UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下拉手势退出UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		045D697821BF9FFF006738BC /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		045D697A21BF9FFF006738BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045D698621BFA016006738BC /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		045D698721BFA016006738BC /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		045D698921BFA864006738BC /* qwerdf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qwerdf.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		045D694821BF9FFF006738BC = {
 			isa = PBXGroup;
 			children = (
+				045D698921BFA864006738BC /* qwerdf.png */,
+				045D698621BFA016006738BC /* TestViewController.h */,
+				045D698721BFA016006738BC /* TestViewController.m */,
 				045D695321BF9FFF006738BC /* 下拉手势退出 */,
 				045D696C21BF9FFF006738BC /* 下拉手势退出Tests */,
 				045D697721BF9FFF006738BC /* 下拉手势退出UITests */,
@@ -237,6 +245,7 @@
 			files = (
 				045D696121BF9FFF006738BC /* LaunchScreen.storyboard in Resources */,
 				045D695E21BF9FFF006738BC /* Assets.xcassets in Resources */,
+				045D698A21BFA864006738BC /* qwerdf.png in Resources */,
 				045D695C21BF9FFF006738BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +273,7 @@
 			files = (
 				045D695921BF9FFF006738BC /* ViewController.m in Sources */,
 				045D696421BF9FFF006738BC /* main.m in Sources */,
+				045D698821BFA016006738BC /* TestViewController.m in Sources */,
 				045D695621BF9FFF006738BC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGV8QBPM82;
 				INFOPLIST_FILE = "下拉手势退出/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGV8QBPM82;
 				INFOPLIST_FILE = "下拉手势退出/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
