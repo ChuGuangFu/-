@@ -74,11 +74,11 @@
     }
     
     CGRect tempRect = self.imageView.frame;
-    tempRect.origin.x = transPoint.x;
-    tempRect.origin.y = transPoint.y;
     
+    tempRect.origin.y = transPoint.y;
     tempRect.size.height = CGRectGetHeight(self.view.frame) - transPoint.y;
     tempRect.size.width = tempRect.size.height * self.imgScale;
+    tempRect.origin.x = (CGRectGetWidth(self.view.frame) - tempRect.size.width) / 2.0 + transPoint.x;
     
     self.imageView.frame = tempRect;
     
